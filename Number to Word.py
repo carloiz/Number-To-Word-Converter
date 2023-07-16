@@ -37,7 +37,7 @@ while True:
                 if Number[-2] == "1":
                     print(ONES[int(Number[-4])] + " Thousand " + ONES[int(Number[-3])] + " Hundred " + TEENS[int(Number) - int(str(Number[-4]) + str(Number[-3]) + "10")]) if int(Number[-3]) != 0 else print(ONES[int(Number[-4])] + " Thousand " + TEENS[int(Number) - int(str(Number[-4]) + "010")]) 
                 elif Number[-2] == "0":
-                    print(ONES[int(Number[-4])] + " Thousand " + ONES[int(Number[-3])] + " Hundred " + ONES[int(Number) - int(str(Number[-4]) + str(Number[-3]) + "00")]) if int(Number[-3]) != 0 else print(ONES[int(Number[-4])] + " Thousand " + TEENS[int(Number) - int(str(Number[-4]) + "000")]) 
+                    print(ONES[int(Number[-4])] + " Thousand " + ONES[int(Number[-3])] + " Hundred " + ONES[int(Number) - int(str(Number[-4]) + str(Number[-3]) + "00")]) if int(Number[-3]) != 0 else print(ONES[int(Number[-4])] + " Thousand " + ONES[int(Number) - int(str(Number[-4]) + "000")]) 
                 else:
                     print(ONES[int(Number[-4])] + " Thousand " + ONES[int(Number[-3])] + " Hundred " + TENS[int(Number[-2])] + " " + ONES[int(Number[-1])]) if int(Number[-3]) != 0 else print(ONES[int(Number[-4])] + " Thousand " + TENS[int(Number[-2])] + " " + ONES[int(Number[-1])])
         else:
